@@ -19,9 +19,6 @@ phases:
         - echo Build completed on `date`
         - mkdir build-output
         - cp -R Dockerfile app.js node_modules/ build-output
-  artifacts:
-    files:
-      - build-output/**/*
 artifacts:
   files:
     - build-output/**/*
